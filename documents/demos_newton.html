@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Newton Demos</title>
+  <style>
+    :root { color-scheme: light; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #172033; background: #f6f8fb; }
+    body { max-width: 1200px; margin: 0 auto; padding: 40px 24px; }
+    nav { display: flex; flex-wrap: wrap; gap: 24px; margin-bottom: 28px; }
+    a { color: #2563eb; }
+    h1 { margin: 0 0 28px; }
+    .demo-list { display: grid; gap: 24px; }
+    .demo { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); background: white; border: 1px solid #dce2eb; border-radius: 12px; overflow: hidden; }
+    .video-panel { padding: 20px; }
+    video { display: block; width: 100%; aspect-ratio: 16 / 9; background: #111827; border-radius: 6px; object-fit: contain; }
+    .video-title { margin: 12px 0 8px; font-size: 16px; font-weight: 600; }
+    .video-link { font-size: 13px; }
+    .details { display: grid; grid-template-rows: repeat(4, minmax(64px, 1fr)); margin: 0; border-left: 1px solid #dce2eb; }
+    .detail-row { display: grid; grid-template-columns: 155px minmax(0, 1fr); align-items: start; gap: 16px; padding: 20px; border-bottom: 1px solid #dce2eb; }
+    .detail-row:last-child { border-bottom: 0; }
+    dt { font-weight: 600; font-size: 14px; }
+    dd { min-height: 20px; margin: 0; overflow-wrap: anywhere; line-height: 1.5; }
+    @media (max-width: 700px) {
+      body { padding: 24px 12px; }
+      .demo { grid-template-columns: minmax(0, 1fr); }
+      .details { border-left: 0; border-top: 1px solid #dce2eb; }
+      .detail-row { grid-template-columns: 135px minmax(0, 1fr); padding: 16px; }
+    }
+  </style>
+</head>
+<body>
+  <nav aria-label="Page navigation">
+    <a href="../README.md">Repository README</a>
+    <a href="demos_isaac.html">Isaac Demos →</a>
+  </nav>
+  <main>
+    <h1>Newton Demos</h1>
+    <div class="demo-list">
+      <article class="demo" aria-labelledby="newton01-title">
+        <div class="video-panel">
+          <video controls preload="none" playsinline aria-label="newton01">
+            <source src="../demos_newton/newton01.mp4" type="video/mp4">
+            Your browser does not support embedded video. Use the link below to open it.
+          </video>
+          <h2 class="video-title" id="newton01-title">newton01</h2>
+          <a class="video-link" href="../demos_newton/newton01.mp4">Open video file</a>
+        </div>
+        <dl class="details">
+          <div class="detail-row">
+            <dt>Description</dt>
+            <dd><!-- Add a one-sentence description here. --></dd>
+          </div>
+          <div class="detail-row">
+            <dt>Software Version</dt>
+            <dd><!-- Add the software name and version here. --></dd>
+          </div>
+          <div class="detail-row">
+            <dt>Source Repository</dt>
+            <dd><!-- Add a repository link here, e.g. <a href="https://example.com/repo">Repository name</a>. --></dd>
+          </div>
+          <div class="detail-row">
+            <dt>Author</dt>
+            <dd><!-- Add the author's name here. --></dd>
+          </div>
+        </dl>
+      </article>
+      <article class="demo" aria-labelledby="newton02-title">
+        <div class="video-panel">
+          <video controls preload="none" playsinline aria-label="newton02">
+            <source src="../demos_newton/newton02.mp4" type="video/mp4">
+            Your browser does not support embedded video. Use the link below to open it.
+          </video>
+          <h2 class="video-title" id="newton02-title">newton02</h2>
+          <a class="video-link" href="../demos_newton/newton02.mp4">Open video file</a>
+        </div>
+        <dl class="details">
+          <div class="detail-row">
+            <dt>Description</dt>
+            <dd><!-- Add a one-sentence description here. --></dd>
+          </div>
+          <div class="detail-row">
+            <dt>Software Version</dt>
+            <dd><!-- Add the software name and version here. --></dd>
+          </div>
+          <div class="detail-row">
+            <dt>Source Repository</dt>
+            <dd><!-- Add a repository link here, e.g. <a href="https://example.com/repo">Repository name</a>. --></dd>
+          </div>
+          <div class="detail-row">
+            <dt>Author</dt>
+            <dd><!-- Add the author's name here. --></dd>
+          </div>
+        </dl>
+      </article>
+      <article class="demo" aria-labelledby="newton03-title">
+        <div class="video-panel">
+          <video controls preload="none" playsinline aria-label="newton03">
+            <source src="../demos_newton/newton03.mp4" type="video/mp4">
+            Your browser does not support embedded video. Use the link below to open it.
+          </video>
+          <h2 class="video-title" id="newton03-title">newton03</h2>
+          <a class="video-link" href="../demos_newton/newton03.mp4">Open video file</a>
+        </div>
+        <dl class="details">
+          <div class="detail-row">
+            <dt>Description</dt>
+            <dd><!-- Add a one-sentence description here. --></dd>
+          </div>
+          <div class="detail-row">
+            <dt>Software Version</dt>
+            <dd><!-- Add the software name and version here. --></dd>
+          </div>
+          <div class="detail-row">
+            <dt>Source Repository</dt>
+            <dd><!-- Add a repository link here. --></dd>
+          </div>
+          <div class="detail-row">
+            <dt>Author</dt>
+            <dd><!-- Add the author's name here. --></dd>
+          </div>
+        </dl>
+      </article>
+      <article class="demo" aria-labelledby="newton04-title">
+        <div class="video-panel">
+          <video controls preload="none" playsinline aria-label="newton04">
+            <source src="../demos_newton/newton04.mp4" type="video/mp4">
+            Your browser does not support embedded video. Use the link below to open it.
+          </video>
+          <h2 class="video-title" id="newton04-title">newton04</h2>
+          <a class="video-link" href="../demos_newton/newton04.mp4">Open video file</a>
+        </div>
+        <dl class="details">
+          <div class="detail-row">
+            <dt>Description</dt>
+            <dd><!-- Add a one-sentence description here. --></dd>
+          </div>
+          <div class="detail-row">
+            <dt>Software Version</dt>
+            <dd><!-- Add the software name and version here. --></dd>
+          </div>
+          <div class="detail-row">
+            <dt>Source Repository</dt>
+            <dd><!-- Add a repository link here. --></dd>
+          </div>
+          <div class="detail-row">
+            <dt>Author</dt>
+            <dd><!-- Add the author's name here. --></dd>
+          </div>
+        </dl>
+      </article>
+      <article class="demo" aria-labelledby="newton05-title">
+        <div class="video-panel">
+          <video controls preload="none" playsinline aria-label="newton05">
+            <source src="../demos_newton/newton05.mp4" type="video/mp4">
+            Your browser does not support embedded video. Use the link below to open it.
+          </video>
+          <h2 class="video-title" id="newton05-title">newton05</h2>
+          <a class="video-link" href="../demos_newton/newton05.mp4">Open video file</a>
+        </div>
+        <dl class="details">
+          <div class="detail-row">
+            <dt>Description</dt>
+            <dd><!-- Add a one-sentence description here. --></dd>
+          </div>
+          <div class="detail-row">
+            <dt>Software Version</dt>
+            <dd><!-- Add the software name and version here. --></dd>
+          </div>
+          <div class="detail-row">
+            <dt>Source Repository</dt>
+            <dd><!-- Add a repository link here. --></dd>
+          </div>
+          <div class="detail-row">
+            <dt>Author</dt>
+            <dd><!-- Add the author's name here. --></dd>
+          </div>
+        </dl>
+      </article>
+      <article class="demo" aria-labelledby="newton06-title">
+        <div class="video-panel">
+          <video controls preload="none" playsinline aria-label="newton06">
+            <source src="../demos_newton/newton06.mp4" type="video/mp4">
+            Your browser does not support embedded video. Use the link below to open it.
+          </video>
+          <h2 class="video-title" id="newton06-title">newton06</h2>
+          <a class="video-link" href="../demos_newton/newton06.mp4">Open video file</a>
+        </div>
+        <dl class="details">
+          <div class="detail-row">
+            <dt>Description</dt>
+            <dd><!-- Add a one-sentence description here. --></dd>
+          </div>
+          <div class="detail-row">
+            <dt>Software Version</dt>
+            <dd><!-- Add the software name and version here. --></dd>
+          </div>
+          <div class="detail-row">
+            <dt>Source Repository</dt>
+            <dd><!-- Add a repository link here. --></dd>
+          </div>
+          <div class="detail-row">
+            <dt>Author</dt>
+            <dd><!-- Add the author's name here. --></dd>
+          </div>
+        </dl>
+      </article>
+      <article class="demo" aria-labelledby="newton07-title">
+        <div class="video-panel">
+          <video controls preload="none" playsinline aria-label="newton07">
+            <source src="../demos_newton/newton07.mp4" type="video/mp4">
+            Your browser does not support embedded video. Use the link below to open it.
+          </video>
+          <h2 class="video-title" id="newton07-title">newton07</h2>
+          <a class="video-link" href="../demos_newton/newton07.mp4">Open video file</a>
+        </div>
+        <dl class="details">
+          <div class="detail-row">
+            <dt>Description</dt>
+            <dd><!-- Add a one-sentence description here. --></dd>
+          </div>
+          <div class="detail-row">
+            <dt>Software Version</dt>
+            <dd><!-- Add the software name and version here. --></dd>
+          </div>
+          <div class="detail-row">
+            <dt>Source Repository</dt>
+            <dd><!-- Add a repository link here. --></dd>
+          </div>
+          <div class="detail-row">
+            <dt>Author</dt>
+            <dd><!-- Add the author's name here. --></dd>
+          </div>
+        </dl>
+      </article>
+      <article class="demo" aria-labelledby="newton08-title">
+        <div class="video-panel">
+          <video controls preload="none" playsinline aria-label="newton08">
+            <source src="../demos_newton/newton08.mp4" type="video/mp4">
+            Your browser does not support embedded video. Use the link below to open it.
+          </video>
+          <h2 class="video-title" id="newton08-title">newton08</h2>
+          <a class="video-link" href="../demos_newton/newton08.mp4">Open video file</a>
+        </div>
+        <dl class="details">
+          <div class="detail-row">
+            <dt>Description</dt>
+            <dd><!-- Add a one-sentence description here. --></dd>
+          </div>
+          <div class="detail-row">
+            <dt>Software Version</dt>
+            <dd><!-- Add the software name and version here. --></dd>
+          </div>
+          <div class="detail-row">
+            <dt>Source Repository</dt>
+            <dd><!-- Add a repository link here. --></dd>
+          </div>
+          <div class="detail-row">
+            <dt>Author</dt>
+            <dd><!-- Add the author's name here. --></dd>
+          </div>
+        </dl>
+      </article>
+      <article class="demo" aria-labelledby="newton09-title">
+        <div class="video-panel">
+          <video controls preload="none" playsinline aria-label="newton09">
+            <source src="../demos_newton/newton09.mp4" type="video/mp4">
+            Your browser does not support embedded video. Use the link below to open it.
+          </video>
+          <h2 class="video-title" id="newton09-title">newton09</h2>
+          <a class="video-link" href="../demos_newton/newton09.mp4">Open video file</a>
+        </div>
+        <dl class="details">
+          <div class="detail-row">
+            <dt>Description</dt>
+            <dd><!-- Add a one-sentence description here. --></dd>
+          </div>
+          <div class="detail-row">
+            <dt>Software Version</dt>
+            <dd><!-- Add the software name and version here. --></dd>
+          </div>
+          <div class="detail-row">
+            <dt>Source Repository</dt>
+            <dd><!-- Add a repository link here. --></dd>
+          </div>
+          <div class="detail-row">
+            <dt>Author</dt>
+            <dd><!-- Add the author's name here. --></dd>
+          </div>
+        </dl>
+      </article>
+      <article class="demo" aria-labelledby="newton10-title">
+        <div class="video-panel">
+          <video controls preload="none" playsinline aria-label="newton10">
+            <source src="../demos_newton/newton10.mp4" type="video/mp4">
+            Your browser does not support embedded video. Use the link below to open it.
+          </video>
+          <h2 class="video-title" id="newton10-title">newton10</h2>
+          <a class="video-link" href="../demos_newton/newton10.mp4">Open video file</a>
+        </div>
+        <dl class="details">
+          <div class="detail-row">
+            <dt>Description</dt>
+            <dd><!-- Add a one-sentence description here. --></dd>
+          </div>
+          <div class="detail-row">
+            <dt>Software Version</dt>
+            <dd><!-- Add the software name and version here. --></dd>
+          </div>
+          <div class="detail-row">
+            <dt>Source Repository</dt>
+            <dd><!-- Add a repository link here. --></dd>
+          </div>
+          <div class="detail-row">
+            <dt>Author</dt>
+            <dd><!-- Add the author's name here. --></dd>
+          </div>
+        </dl>
+      </article>
+      <article class="demo" aria-labelledby="newton11-title">
+        <div class="video-panel">
+          <video controls preload="none" playsinline aria-label="newton11">
+            <source src="../demos_newton/newton11.mp4" type="video/mp4">
+            Your browser does not support embedded video. Use the link below to open it.
+          </video>
+          <h2 class="video-title" id="newton11-title">newton11</h2>
+          <a class="video-link" href="../demos_newton/newton11.mp4">Open video file</a>
+        </div>
+        <dl class="details">
+          <div class="detail-row">
+            <dt>Description</dt>
+            <dd><!-- Add a one-sentence description here. --></dd>
+          </div>
+          <div class="detail-row">
+            <dt>Software Version</dt>
+            <dd><!-- Add the software name and version here. --></dd>
+          </div>
+          <div class="detail-row">
+            <dt>Source Repository</dt>
+            <dd><!-- Add a repository link here. --></dd>
+          </div>
+          <div class="detail-row">
+            <dt>Author</dt>
+            <dd><!-- Add the author's name here. --></dd>
+          </div>
+        </dl>
+      </article>
+      <article class="demo" aria-labelledby="newton12-title">
+        <div class="video-panel">
+          <video controls preload="none" playsinline aria-label="newton12">
+            <source src="../demos_newton/newton12.mp4" type="video/mp4">
+            Your browser does not support embedded video. Use the link below to open it.
+          </video>
+          <h2 class="video-title" id="newton12-title">newton12</h2>
+          <a class="video-link" href="../demos_newton/newton12.mp4">Open video file</a>
+        </div>
+        <dl class="details">
+          <div class="detail-row">
+            <dt>Description</dt>
+            <dd><!-- Add a one-sentence description here. --></dd>
+          </div>
+          <div class="detail-row">
+            <dt>Software Version</dt>
+            <dd><!-- Add the software name and version here. --></dd>
+          </div>
+          <div class="detail-row">
+            <dt>Source Repository</dt>
+            <dd><!-- Add a repository link here. --></dd>
+          </div>
+          <div class="detail-row">
+            <dt>Author</dt>
+            <dd><!-- Add the author's name here. --></dd>
+          </div>
+        </dl>
+      </article>
+    </div>
+  </main>
+</body>
+</html>
