@@ -1,11 +1,11 @@
 # NewtonRepoCollection
 
-Demo pages:
+Watch the demos online:
 
-- [Isaac Demos](documents/demos_isaac.html): 3 groups, 9 videos.
-- [Newton Demos](documents/demos_newton.html): 5 groups, 12 videos.
+- [Isaac Demos](https://xiangxiao128.github.io/NewtonRepoCollection/documents/demos_isaac.html): 3 groups, 9 videos.
+- [Newton Demos](https://xiangxiao128.github.io/NewtonRepoCollection/documents/demos_newton.html): 5 groups, 12 videos.
 
-After downloading the repository, open an HTML page in `documents` with a browser to watch the videos. GitHub's repository view displays HTML source; the static pages can be published with GitHub Pages for online playback.
+For local viewing, download the repository and open `documents/demos_isaac.html` or `documents/demos_newton.html` in a browser. The links above open the published GitHub Pages site; opening an HTML file in GitHub's repository view displays its source code.
 
 Each subfolder is one demo group. Swipe horizontally or use Previous / Next to browse its videos. The group shares four information rows: Description, Software Version, Source Repository, and Author.
 
@@ -26,5 +26,7 @@ python3 scripts/build_demos.py --watch
 Edit and save any demo subfolder's `info.md` (for example, `demos_newton/demo03/info.md`). The watcher automatically regenerates both HTML pages. Refresh the corresponding page in your browser to see the latest text; the browser tab does not reload automatically.
 
 Press Ctrl+C to stop watching. Without the watcher running, saved Markdown changes do not update the HTML automatically; run `python3 scripts/build_demos.py` once to synchronize them instead.
+
+To update the online demo pages, commit and push the edited metadata and regenerated HTML to `main`, then wait for the GitHub Pages deployment to finish. Local edits are not published automatically.
 
 See [Demo Authoring](documents/demo-authoring.md) for the template and instructions for adding videos or groups. Generated HTML should not be edited directly.
