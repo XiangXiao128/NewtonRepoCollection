@@ -3,7 +3,7 @@
 Watch the demos online:
 
 - [Isaac Demos](https://xiangxiao128.github.io/NewtonRepoCollection/documents/demos_isaac.html): 3 groups, 9 videos.
-- [Newton Demos](https://xiangxiao128.github.io/NewtonRepoCollection/documents/demos_newton.html): 5 groups, 12 videos.
+- [Newton Demos](https://xiangxiao128.github.io/NewtonRepoCollection/documents/demos_newton.html): 5 groups, 13 videos.
 
 For local viewing, download the repository and open `documents/demos_isaac.html` or `documents/demos_newton.html` in a browser. The links above open the published GitHub Pages site; opening an HTML file in GitHub's repository view displays its source code.
 
