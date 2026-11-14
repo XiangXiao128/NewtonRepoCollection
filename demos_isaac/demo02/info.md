@@ -10,13 +10,13 @@
 demo02
 
 ## Description
-<!-- Add a one-sentence description shared by all videos in this group. -->
+RevoSim is a scalable multimodal tactile simulation framework for dexterous manipulation built on NVIDIA Isaac Sim and Isaac Lab. It integrates dual-hand kinematics and dynamics with visuotactile and piezoresistive sensing, supporting real-to-sim-to-real workflows.
 
 ## Software Version
-<!-- Add the software name and version. -->
+NVIDIA Isaac Sim 5.1.0; Isaac Lab 2.3.2; Python 3.11
 
 ## Source Repository
-<!-- Add the source repository URL. -->
+https://github.com/BrainCoTech/RevoSim
 
 ## Author
 Lixin Xu

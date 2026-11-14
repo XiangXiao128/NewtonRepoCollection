@@ -10,13 +10,13 @@
 demo01
 
 ## Description
-<!-- Add a one-sentence description shared by all videos in this group. -->
+DexFormer 2.0 is a research project towards a cross-embodiment foundation policy for dexterous grasping. It combines morphology-aware representations with Transformer-XL temporal memory to support generalization across robotic arms, dexterous hands, and objects, with real-world deployment on Flexiv–Revo3 and Flexiv–LEAP platforms.
 
 ## Software Version
-<!-- Add the software name and version. -->
+NVIDIA Isaac Sim 5.1.0; Isaac Lab 2.3.2; Blender/bpy 4.5.3; Python 3.11
 
 ## Source Repository
-<!-- Add the source repository URL. -->
+https://github.com/DavidLXu/dexformer2
 
 ## Author
 Lixin Xu

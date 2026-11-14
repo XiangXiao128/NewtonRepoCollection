@@ -10,10 +10,10 @@
 demo01
 
 ## Description
-<!-- Add a one-sentence description shared by all videos in this group. -->
+A scripted simulation demo of the Revo3 left hand forming a five-point star with a closed rope loop and reversing the sequence. Newton XPBD simulates rope deformation, contact and friction, while prescribed trajectories drive the hand’s 21 joints. The rope has no attachments to the fingers; an idealized adaptive-length controller maintains tension. The repository includes forward/inverse simulation runners, an interactive browser viewer for trajectory replay, and a synchronized two-view renderer. The video features a dark studio environment, metallic highlights and a vivid red rope.
 
 ## Software Version
-<!-- Add the software name and version. -->
+Newton 1.8.0.dev0, Warp 1.18.0, Three.js r170 (rendering only), Python 3.12
 
 ## Source Repository
 https://github.com/DavidLXu/Revo3-Newton-CatCradle
